@@ -13,7 +13,7 @@
   <title>My Portfolio</title>
 </head>
 
-<body>
+<body id="bg-img">
   <header>
     <div class="menu-btn">
       <div class="btn-line"></div>
@@ -55,42 +55,35 @@
     </h2>
     <div class="projects">
       <div class="item">
-        <a href="#!">
+        <a href="https://kubernetes.io/" target="_blank">
           <img src="img/projects/project1.jpg" alt="Project">
         </a>
-        <a href="#" class="btn-dark">
+        <a href="https://github.com/srlars/aws-docker-kubernetes" target="_blank" class="btn-dark">
           <i class="fab fa-github"></i> Github
         </a>
       </div>
       <div class="item">
-        <a href="#!">
+        <a href="https://serverless.com/" target="_blank">
           <img src="img/projects/project2.jpg" alt="Project">
         </a>
-        <a href="#" class="btn-dark">
+        <a href="https://github.com/srlars/aws-serverless-todo" target="_blank" class="btn-dark">
           <i class="fab fa-github"></i> Github
         </a>
       </div>
       <div class="item">
-        <a href="#!">
+        <a href="https://www.python.org/" target="_blank">
           <img src="img/projects/project3.jpg" alt="Project">
         </a>
-        <a href="#" class="btn-dark">
+        <a href="https://github.com/srlars/tech-stock-market-analysis/blob/master/Tech_Stock_Market_Analysis_2019_2020_01_14_Python_3.7.4.ipynb"
+          target="_blank" class="btn-dark">
           <i class="fab fa-github"></i> Github
         </a>
       </div>
       <div class="item">
-        <a href="#!">
+        <a href="https://reactjs.org/" target="_blank">
           <img src="img/projects/project4.jpg" alt="Project">
         </a>
-        <a href="#" class="btn-dark">
-          <i class="fab fa-github"></i> Github
-        </a>
-      </div>
-      <div class="item">
-        <a href="#!">
-          <img src="img/projects/project5.jpg" alt="Project">
-        </a>
-        <a href="#" class="btn-dark">
+        <a href="https://github.com/srlars/mern-basic-social-network" target="_blank" class="btn-dark">
           <i class="fab fa-github"></i> Github
         </a>
       </div>
@@ -98,7 +91,10 @@
   </main>
 
   <footer id="main-footer">
-    Copyright &copy; 2020
+    Copyright &copy;
+    <script type="text/JavaScript">
+      document.write(new Date().getFullYear());
+      </script>
   </footer>
 
   <script src="js/main.js"></script>
